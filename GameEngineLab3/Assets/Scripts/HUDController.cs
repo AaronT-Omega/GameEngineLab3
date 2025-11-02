@@ -18,14 +18,14 @@ public class HUDController : Observer
         GUILayout.EndHorizontal();
 
 
-        if (_isOnFire)
+        if (_isOnFire) // When the On Fire state is toggled on, creates a warning for the player
         {
             GUILayout.BeginHorizontal("box");
-            GUILayout.Label("Burning");
+            GUILayout.Label("BURNING");
             GUILayout.EndHorizontal();
         }
 
-        if (_currentHealth <= 50.0f)
+        if (_currentHealth <= 50.0f) // When HP is below or equal to 50, creates a warning for the player
         {
             GUILayout.BeginHorizontal("box");
             GUILayout.Label("WARNING: Low Health");
