@@ -42,7 +42,7 @@ Sadly I wasn't able to do more then just a simple toggle button. If I had more t
 
 Some code was reused from the lecture slides, though adjusted to fit the project.
 
-These two videos here helped me figure out how to use the Particles a bit more as well as implementing a Filter
+These two videos here helped me figure out how to use the Particles a bit more as well as implementing a Filter. The Filter was made in Photoshop. 
 
 https://www.youtube.com/watch?v=Oo6ktMZzzhg
 
